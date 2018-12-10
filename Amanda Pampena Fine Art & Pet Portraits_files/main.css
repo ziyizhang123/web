@@ -1,0 +1,107 @@
+﻿/*=============================================All===================================*/
+@font-face {
+    font-family: AvantGardeSlim;
+    src: url('fonts/AVANGELI.TTF');
+}
+@font-face {
+    font-family: AvantGarde;
+    src: url('fonts/AVANGMI.TTF');
+}
+body {
+    overflow:hidden;
+    color:#775133;
+}
+a {
+	color:#775133;
+    
+    transition:color 1s ease, background-color 1s ease;
+    -moz-transition:color 1s ease, background-color 1s ease;
+    -webkit-transition:color 1s ease, background-color 1s ease;
+    -o-transition:color 1s ease, background-color 1s ease;
+
+	text-decoration:none;
+}
+
+#social-media-links a:hover {
+	background-color:#ffffff;
+}
+
+a:hover { 
+	color:white; 
+	background-color:#775133; 
+}
+
+/*============================================Top Name=====================*/
+#name_strip {
+    position:fixed;
+    color:white;
+    background-color:#775133;
+    top:100px;
+    width:100%;
+}
+#name {
+    position:relative;
+    left:200px;
+    font-family:AvantGardeSlim;
+    font-size:36px;
+    width:500px;
+}
+#name a {
+	color:white;
+}
+/*====================================Navigation=======================*/
+#navigation { 
+    position:fixed;
+    text-align:right;
+    left:200px;
+    top:160px;
+    font-family:AvantGardeSlim;
+    font-size:22pt;
+    width:150px;
+}
+#panel_logo a {
+	position:relative;
+	width:83px;
+	height:74px;
+	top:10px;
+}
+/*=======================================Middle=========================*/
+#bigcontent {
+    position:fixed;
+    top:160px;
+    left:380px;
+    width:500px;
+    font-family:"Book Antiqua", serif;
+}
+.content {
+    position:absolute;
+    width:500px;
+    display:none;
+    padding:35px;
+    line-height:200%;
+    border:1px white solid;
+       
+	-moz-box-shadow: 0 0 30px #888;
+    -webkit-box-shadow: 0 0 30px #888;
+    box-shadow: 0 0 30px #888;
+    
+    background-image:url('images/paper_texture_1.jpg');
+}
+#c_welcome {
+	position:relative;
+	left:30px;
+	top:8px;
+	z-index:-100;
+}
+#c_gallery,#c_illustration,#c_design_portfolio {
+	width:800px;
+}
+#c_resume {
+    line-height:120%;
+    font-size:13px;
+    width:650px;
+}
+#c_commission {
+    line-height:120%;
+    font-size:14px;
+}
