@@ -84,6 +84,7 @@ a:hover {
 	-moz-box-shadow: 0 0 30px #888;
     -webkit-box-shadow: 0 0 30px #888;
     box-shadow: 0 0 30px #888;
+		color:#fff;
     
     background-image:url('https://ziyizhang123.github.io/web/images/paper_texture_1.jpg');
 }
